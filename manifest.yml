@@ -5,5 +5,5 @@ applications:
     routes:
       - route: pal-tracker-terrific-hyrax.apps.evans.pal.pivotal.io
     env:
-      WELCOME_MESSAGE: Hello from Sandbox environment
+      WELCOME_MESSAGE: Hello from Sandbox Environment
       JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
