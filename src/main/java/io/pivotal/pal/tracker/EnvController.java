@@ -18,7 +18,7 @@ public class EnvController {
     public EnvController(@Value("${port:No Port}") String port,
                          @Value("${memory.limit:No Memory}") String memoryLimit,
                          @Value("${cf.instance.index:No Instance}") String cfInstanceIndex,
-                         @Value("${cf.Instance.Address}") String cfInstanceAddress ){
+                         @Value("${cf.Instance.Address: No Address}") String cfInstanceAddress ){
 
         this.port = port;
         this.memoryLimit = memoryLimit;
