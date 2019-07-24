@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package io.pivotal.pal.tracker;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
@@ -21,3 +22,16 @@ public class PalTrackerApplication {
         return new InMemoryTimeEntryRepository();
     }
 }
+=======
+package io.pivotal.pal.tracker;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class PalTrackerApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(PalTrackerApplication.class, args);
+    }
+}
+>>>>>>> 67d0fd1815d31741823ca1f315763021de97171b
