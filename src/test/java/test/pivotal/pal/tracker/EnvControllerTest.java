@@ -8,9 +8,9 @@ import io.pivotal.pal.tracker.EnvController;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class EnvControllerTest {
-<<<<<<< HEAD
-    @Test
-=======
+
+
+
     /*@Test
 >>>>>>> 67d0fd1815d31741823ca1f315763021de97171b
     public void getEnv() throws Exception {
@@ -33,6 +33,5 @@ public class EnvControllerTest {
         assertThat(env.get("CF_INSTANCE_ADDRESS")).isEqualTo("123.sesame.street");
     }*/
 
->>>>>>> 67d0fd1815d31741823ca1f315763021de97171b
 
 }
