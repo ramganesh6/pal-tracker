@@ -1,7 +1,5 @@
 #!/usr/bin/env sh
 
-<<<<<<< HEAD
-=======
 #
 # Copyright 2015 the original author or authors.
 #
@@ -18,7 +16,6 @@
 # limitations under the License.
 #
 
->>>>>>> 67d0fd1815d31741823ca1f315763021de97171b
 ##############################################################################
 ##
 ##  Gradle start up script for UN*X
@@ -47,11 +44,8 @@ APP_NAME="Gradle"
 APP_BASE_NAME=`basename "$0"`
 
 # Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.
-<<<<<<< HEAD
 DEFAULT_JVM_OPTS='"-Xmx64m"'
-=======
 DEFAULT_JVM_OPTS='"-Xmx64m" "-Xms64m"'
->>>>>>> 67d0fd1815d31741823ca1f315763021de97171b
 
 # Use the maximum available, or set MAX_FD != -1 to use that value.
 MAX_FD="maximum"
